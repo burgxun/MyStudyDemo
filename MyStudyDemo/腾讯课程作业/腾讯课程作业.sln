@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "腾讯课程作业", "腾讯课程作业\腾讯课程作业.csproj", "{8644CF2C-7CEC-4429-BFC5-AC2E6D87A7A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TX.Model", "TenngXunHomeWork\TX.Model.csproj", "{03A87D16-C643-48EC-BC11-E7F2EB19C786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TX.Factory", "TX.Factory\TX.Factory.csproj", "{15D56782-A36B-4D6C-8966-BC22F03B1B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TX.DB.SqlServerHelper", "TX.SqlDBHelper\TX.DB.SqlServerHelper.csproj", "{3F5B955E-653D-4259-BD8D-7D7CF0D7C76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TX.DB.MySqlHelper", "TX.DB.MySqlHelper\TX.DB.MySqlHelper.csproj", "{DB3C4DB0-C64D-4FA1-AE35-AC9C15F5F95D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TX.DB.Interface", "TX.DB.Interface\TX.DB.Interface.csproj", "{1A0FEF64-7197-41AE-BC62-94422A29E96A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8644CF2C-7CEC-4429-BFC5-AC2E6D87A7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8644CF2C-7CEC-4429-BFC5-AC2E6D87A7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8644CF2C-7CEC-4429-BFC5-AC2E6D87A7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8644CF2C-7CEC-4429-BFC5-AC2E6D87A7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A87D16-C643-48EC-BC11-E7F2EB19C786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A87D16-C643-48EC-BC11-E7F2EB19C786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A87D16-C643-48EC-BC11-E7F2EB19C786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A87D16-C643-48EC-BC11-E7F2EB19C786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D56782-A36B-4D6C-8966-BC22F03B1B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D56782-A36B-4D6C-8966-BC22F03B1B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D56782-A36B-4D6C-8966-BC22F03B1B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D56782-A36B-4D6C-8966-BC22F03B1B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5B955E-653D-4259-BD8D-7D7CF0D7C76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5B955E-653D-4259-BD8D-7D7CF0D7C76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5B955E-653D-4259-BD8D-7D7CF0D7C76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5B955E-653D-4259-BD8D-7D7CF0D7C76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3C4DB0-C64D-4FA1-AE35-AC9C15F5F95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3C4DB0-C64D-4FA1-AE35-AC9C15F5F95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3C4DB0-C64D-4FA1-AE35-AC9C15F5F95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3C4DB0-C64D-4FA1-AE35-AC9C15F5F95D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0FEF64-7197-41AE-BC62-94422A29E96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0FEF64-7197-41AE-BC62-94422A29E96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0FEF64-7197-41AE-BC62-94422A29E96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0FEF64-7197-41AE-BC62-94422A29E96A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F9D44F5-E005-49BD-8F9F-58CF9AA9D038}
+	EndGlobalSection
+EndGlobal

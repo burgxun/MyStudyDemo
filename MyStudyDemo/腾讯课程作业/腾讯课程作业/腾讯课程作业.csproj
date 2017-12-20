@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8644CF2C-7CEC-4429-BFC5-AC2E6D87A7A0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>腾讯课程作业</RootNamespace>
+    <AssemblyName>腾讯课程作业</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TenngXunHomeWork\TX.Model.csproj">
+      <Project>{03a87d16-c643-48ec-bc11-e7f2eb19c786}</Project>
+      <Name>TX.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TX.DB.Interface\TX.DB.Interface.csproj">
+      <Project>{1a0fef64-7197-41ae-bc62-94422a29e96a}</Project>
+      <Name>TX.DB.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TX.DB.MySqlHelper\TX.DB.MySqlHelper.csproj">
+      <Project>{db3c4db0-c64d-4fa1-ae35-ac9c15f5f95d}</Project>
+      <Name>TX.DB.MySqlHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TX.Factory\TX.Factory.csproj">
+      <Project>{15d56782-a36b-4d6c-8966-bc22f03b1b16}</Project>
+      <Name>TX.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TX.SqlDBHelper\TX.DB.SqlServerHelper.csproj">
+      <Project>{3f5b955e-653d-4259-bd8d-7d7cf0d7c76b}</Project>
+      <Name>TX.DB.SqlServerHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

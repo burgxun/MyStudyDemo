@@ -1,0 +1,32 @@
+[
+  {
+    "ClassName": "SimmerMeat",
+    "Name": "红烧肉",
+    "Price": 25,
+    "Message": "红烧肉好吃不油腻"
+  },
+  {
+    "ClassName": "SteamMeat",
+    "Name": "粉蒸肉",
+    "Price": 32,
+    "Message": "粉蒸肉 好吃的不的了"
+  },
+  {
+    "ClassName": "FryMushroom",
+    "Name": "酥炸香菇 ",
+    "Price": 40,
+    "Message": "粉蒸酥炸香菇 肉好吃的不的了"
+  },
+  {
+    "ClassName": "FryKingPrawn",
+    "Name": "炸明虾 ",
+    "Price": 38,
+    "Message": "炸明虾 肉好吃的不的了"
+  },
+  {
+    "ClassName": "FriedCurryBeef",
+    "Name": "咖哩牛肉 ",
+    "Price": 34,
+    "Message": "咖哩牛肉 肉好吃的不的了"
+  }
+]
